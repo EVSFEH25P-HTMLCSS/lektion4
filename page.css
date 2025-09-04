@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+#logo-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+nav > div:last-child {
+  margin-left: auto;
+}
+
+#hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#hero-cta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+#w3-hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+#w3-hero h1 {
+  align-self: flex-start;
+}
